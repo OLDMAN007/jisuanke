@@ -28,3 +28,8 @@ add_executable(t1063 t1063.cpp)
 add_executable(t1064 t1064.cpp)
 #2019/9/5 10:00
 add_executable(t1065 t1065.cpp)
+
+#2020/1/6 16:00
+add_executable(t1066 t1066.cpp)
+add_executable(t1067 t1067.cpp)
+add_executable(t1069 t1069.cpp)
