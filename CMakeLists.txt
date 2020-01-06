@@ -33,3 +33,8 @@ add_executable(t1065 t1065.cpp)
 add_executable(t1066 t1066.cpp)
 add_executable(t1067 t1067.cpp)
 add_executable(t1069 t1069.cpp)
+#2020/1/6 20:00
+add_executable(t1079 t1079.cpp)
+add_executable(t1084 t1084.cpp)
+add_executable(t1096 t1096.cpp)
+add_executable(t1098 t1098.cpp)
