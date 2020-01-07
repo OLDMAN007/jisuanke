@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(main main.cpp)
 
 #2019/9/1
-add_executable(JT1047 t1047.cpp)
-add_executable(JT1049 t1049.cpp)
+add_executable(t1047 t1047.cpp)
+add_executable(t1049 t1049.cpp)
 add_executable(t1050 t1050.cpp)
 add_executable(t1051 t1051.cpp)
 #2019/9/3 7:00
@@ -47,3 +47,10 @@ add_executable(t1016 t1016.cpp)
 add_executable(t1015 t1015.cpp)
 add_executable(t1006 t1006.cpp)
 add_executable(t1046 t1046.cpp)
+#2020/1/7 9:00
+add_executable(t1073 t1073.cpp)
+add_executable(t1074 t1074.cpp)
+add_executable(t1075 t1075.cpp)
+add_executable(t1076 t1076.cpp)
+add_executable(t1077 t1077.cpp)
+add_executable(t1078 t1078.cpp)
