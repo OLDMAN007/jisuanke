@@ -30,11 +30,21 @@ int main(){
     int k=(a.length()>b.length())?a.length():b.length();
     s[0]=0;
     for(int i=0;i<k;i++){
-        s[i+1]=(s[i]+m[i]+n[i])/10;//计算进位
-        s[i]=(s[i]+m[i]+n[i])%10;//计算当前位
+        if(i >= a.length()){
+            s[i] = n[i];
+        }
+        else if(i >= b.length()){
+            s[i] = m[i];
+        }
+        else{
+            s[i+1]=(s[i]+m[i]+n[i])/10;//计算进位
+            s[i]=(s[i]+m[i]+n[i])%10;//计算当前位
+        }
+//        s[i+1]=(s[i]+m[i]+n[i])/10;//计算进位
+//        s[i]=(s[i]+m[i]+n[i])%10;//计算当前位
     }
 
-    for(int i=k-1;i>=0;i--){
+    for(int i=k;i>=0;i--){//初始值 i = k，有可能长度+1
         //去除结果前多余的'0'
         if (!s[i]) {
             continue;//结束当前循环体，继续遍历

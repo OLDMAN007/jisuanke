@@ -47,6 +47,7 @@ add_executable(t1016 simple/t1016.cpp)
 add_executable(t1015 simple/t1015.cpp)
 add_executable(t1006 simple/t1006.cpp)
 add_executable(t1046 simple/t1046.cpp)
+
 #2020/1/7 9:00
 add_executable(t1073 simple/t1073.cpp)
 add_executable(t1074 simple/t1074.cpp)
@@ -58,3 +59,10 @@ add_executable(t1078 simple/t1078.cpp)
 add_executable(t1068 popular/t1068.cpp)
 #2020/1/7 18:00
 add_executable(t1099 popular/t1099.cpp)
+
+#2020/1/8 8:30
+add_executable(t1100 popular/t1100.cpp)
+add_executable(t1093 simple/t1093.cpp)
+add_executable(t1090 simple/t1090.cpp)
+#2020/1/8 16:00
+add_executable(t1102 popular/t1102.cpp)
