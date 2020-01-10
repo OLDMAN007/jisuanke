@@ -14,6 +14,15 @@
 
 #include <iostream>
 using namespace std;
+
+void out(int a[], int b[], int size){
+    int result = 0;
+    for (int i = 0; i < size; ++i) {
+        result += a[i] * b[i];
+    }
+    cout<<result<<" ";
+}
+
 int main(){
     int n, m, k;
     cin>>n>>m>>k;
@@ -30,20 +39,20 @@ int main(){
         }
     }
 
-    int result[100][100] = {0};
     for (int i1 = 0; i1 < n; ++i1) {
+        int r1[m];
         for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < k; ++j) {
-                int l;
-                result[i1][j] += a[i1][i] * b[l][i];
-            }
-        }
-    }
+            r1[i] = a[i1][i];
 
-    for (int j1 = 0; j1 < n; ++j1) {
-        for (int i = 0; i < k; ++i) {
-            cout<<result[j1][i]<<" ";
+        }
+        for (int j = 0; j < k; ++j) {
+            int r2[m];
+            for (int l = 0; l < m; ++l) {
+                r2[l] = b[l][j];
+            }
+            out(r1, r2, m);
         }
         cout<<endl;
     }
+
 }
