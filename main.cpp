@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <cmath>
 
 using namespace std;
 int main() {
@@ -50,5 +51,21 @@ int main() {
         std::cout << str_bin << ": " << i_bin << '\n';
         std::cout << str_auto << ": " << i_auto << '\n';
     }
+
+    //四舍五入函数
+    {
+        float a = 1.4, b = 1.5;
+        floor(a);//不大于自变量的最大整数
+        ceil(a);//不小于自变量的最小整数
+        round(a);//四舍五入到最邻近的整数
+    }
+
+    //copy数组
+    {
+        int a[10][10] = {0};
+        int b[10][10];
+        memcpy(b, a, sizeof(a));
+    }
+
     return 0;
 }
