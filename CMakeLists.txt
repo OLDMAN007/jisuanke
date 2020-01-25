@@ -82,3 +82,7 @@ add_executable(t1185 popular/t1185.cpp)
 #2020/1/11 10:30
 add_executable(t1139 popular/t1139.cpp)
 add_executable(t1140 popular/t1140.cpp)
+
+#2020/1/24 19:00
+add_executable(t1484 popular/t1484.cpp)
+add_executable(t1653 simple/t1653.cpp)
