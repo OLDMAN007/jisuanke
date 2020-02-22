@@ -1,6 +1,7 @@
 #include <iostream>
 #include <sstream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 int main() {
@@ -65,6 +66,18 @@ int main() {
         int a[10][10] = {0};
         int b[10][10];
         memcpy(b, a, sizeof(a));
+    }
+
+    //保留小數點後n位
+    {
+        //第一种写法
+        cout<<setiosflags(ios::fixed)<<setprecision(2);
+        //第二种写法
+        cout.setf(ios::fixed);
+        cout<<setprecision(2);
+        //第三种写法
+        cout<<fixed<<setprecision(2);
+
     }
 
     return 0;
