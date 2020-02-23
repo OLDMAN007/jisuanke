@@ -78,6 +78,7 @@ int main() {
         //第三种写法
         cout<<fixed<<setprecision(2);
 
+        printf("%.4f",0.23456);
     }
 
     return 0;
