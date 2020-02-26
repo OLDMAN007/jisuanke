@@ -17,7 +17,7 @@ int main(){
 
     int i = 0, count = 0;
     while ((c=cin.get())!='\n'){
-//        cin.unget();
+//        cin.unget();  //重新放回到輸入流中
 //        cin>>a;
         if (c >= '0' && c<= '9'){
             count++;
