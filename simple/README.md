@@ -444,6 +444,13 @@
 
 ### [t1108 配對鹼基鏈](t1108.cpp)
 
+### [t1111 簡單密碼](t1111.cpp)
+密文\
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+明文\
+V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
+
 ### [t1301 撿石頭](t1301.cpp)
 憨厚的蒜头君昨天捡到了 3 块小石头，他想再去捡一个小石头，让这 4 个石头正好一共重 20 斤，请问他应该去捡一个多少斤的石头?
 
