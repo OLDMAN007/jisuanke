@@ -103,3 +103,6 @@ add_executable(t1345 simple/t1345.cpp)
 
 #2020/2/26 21:00
 add_executable(t1103 simple/t1103.cpp)
+
+#2020/2/27 20：00
+add_executable(t1106 simple/t1106.cpp)
