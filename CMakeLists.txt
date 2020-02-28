@@ -41,7 +41,7 @@ add_executable(t1098 popular/t1098.cpp)
 add_executable(t1070 simple/t1070.cpp)
 add_executable(t1071 simple/t1071.cpp)
 add_executable(t1072 simple/t1072.cpp)
-add_executable(t1002 simple/t1002.cpp simple/t1085.cpp)
+add_executable(t1002 simple/t1002.cpp)
 add_executable(t1003 simple/t1003.cpp)
 add_executable(t1016 simple/t1016.cpp)
 add_executable(t1015 simple/t1015.cpp)
@@ -91,19 +91,14 @@ add_executable(t1653 simple/t1653.cpp)
 add_executable(t1301 simple/t1301.cpp)
 add_executable(t1328 simple/t1328.cpp)
 add_executable(t1336 simple/t1336.cpp)
-
 #2020/2/22 21:00
 add_executable(t1081 simple/t1081.cpp)
-
 #2020/2/23 21:30
 add_executable(t1907 simple/t1907.cpp)
-
 #2020/2/24 21:30
 add_executable(t1345 simple/t1345.cpp)
-
 #2020/2/26 21:00
 add_executable(t1103 simple/t1103.cpp)
-
 #2020/2/27 20：00
 add_executable(t1106 simple/t1106.cpp)
 add_executable(t1108 simple/t1108.cpp)
